@@ -1,5 +1,5 @@
 # Coreml-Performance-App
-This project is based on Vladimir Chernykh coreml-performance project for iOS. Our implementation extends the original project by adding a user interface to simplify model selection and device configuration. Additionally, I've added a screen-off latency function to get a better performance, hopefully.
+This project is based on [Vladimir Chernykh coreml-performance project for iOS](https://github.com/vladimir-chernykh/coreml-performance). Our implementation extends the original project by adding a user interface to simplify model selection and device configuration. Additionally, I've added a screen-off latency function to get a better performance, hopefully.
 
 # Quick Start
 1. Clone the repository
@@ -46,3 +46,5 @@ This project is based on Vladimir Chernykh coreml-performance project for iOS. O
 | MobileOne_s2          | 224        | 77.4               | 7.808               | 1.299     | 7.56                       | https://github.com/apple/ml-mobileone                                                      |
 | MobileOne_s3          | 224        | 78.1               | 10.078              | 1.896     | 9.13                       | https://github.com/apple/ml-mobileone                                                      |
 | MobileOne_S4          | 224        | 79.4               | 14.838              | 2.979     | 11.81                      | https://github.com/apple/ml-mobileone                                                      |
+
+For the calculation of flops, parameters, and activations, I use the [fvcore](https://github.com/facebookresearch/fvcore/blob/main/docs/flop_count.md) library.
