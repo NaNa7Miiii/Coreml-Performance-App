@@ -1,5 +1,5 @@
 # Coreml-Performance-App
-This project is based on [Vladimir Chernykh coreml-performance project for iOS](https://github.com/vladimir-chernykh/coreml-performance). Our implementation extends the original project by adding a user interface to simplify model selection and device configuration. Additionally, I've added a screen-off latency function to get a better performance, hopefully.
+This project is mostly based on [Vladimir Chernykh coreml-performance project for iOS](https://github.com/vladimir-chernykh/coreml-performance). This implementation extends the original project by adding a user interface to simplify model selection and device configuration. Additionally, I've added a screen-off latency function to get a better performance, hopefully.
 
 # Quick Start
 1. Clone the repository
